@@ -1,0 +1,49 @@
+.about-section {
+  background: linear-gradient(to right, rgb(44, 20, 83), rgb(76, 91, 230));
+  padding: 20px;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-box {
+  background: linear-gradient(to right, rgb(44, 20, 83), rgb(76, 91, 230));
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(9, 158, 245, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .about-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .text-box {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

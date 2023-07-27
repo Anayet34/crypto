@@ -1,0 +1,19 @@
+.features-page {
+  background: linear-gradient(to right, rgb(44, 20, 83), rgb(76, 91, 230));
+}
+
+.tokenomics-image {
+  text-align: center;
+}
+
+.tokenomics-image img {
+  margin: 20px 20px 20px 5px;
+  max-width: 92%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .tokenomics-image img {
+    max-width: 600px;
+  }
+}
